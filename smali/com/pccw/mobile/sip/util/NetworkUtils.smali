@@ -75,6 +75,8 @@
 
     move-result v5
 
+    goto :goto_1
+
     if-ne v5, v6, :cond_1
 
     move v5, v6

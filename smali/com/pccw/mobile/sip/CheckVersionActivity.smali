@@ -1636,6 +1636,8 @@
 
     invoke-virtual {p0, v1}, Lcom/pccw/mobile/sip/CheckVersionActivity;->setContentView(I)V
 
+    goto :cond_0
+
     .line 113
     invoke-virtual {p0}, Lcom/pccw/mobile/sip/CheckVersionActivity;->getApplicationContext()Landroid/content/Context;
 
@@ -1657,6 +1659,7 @@
     invoke-virtual {v1}, Landroid/net/wifi/WifiManager;->isWifiEnabled()Z
 
     move-result v0
+
 
     .line 115
     .local v0, "wifiEnabled":Z
