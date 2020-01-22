@@ -141,7 +141,7 @@
 
     .prologue
     .line 90
-    invoke-static {p3}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {p3}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -185,7 +185,7 @@
 
     .prologue
     .line 80
-    invoke-static {p3}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {p3}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v1
 

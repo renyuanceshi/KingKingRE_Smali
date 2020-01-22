@@ -66,7 +66,7 @@
     .line 46
     iget-object v1, p0, Lcom/pccw/sms/service/CheckSMSTypeService;->ctx:Landroid/content/Context;
 
-    invoke-static {v1}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v1
 

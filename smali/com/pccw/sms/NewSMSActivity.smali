@@ -1006,7 +1006,7 @@
     return-void
 .end method
 
-.method private isWifiAvailable()Z
+.method private isDataConnected()Z
     .locals 1
 
     .prologue

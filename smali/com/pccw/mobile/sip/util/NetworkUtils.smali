@@ -43,7 +43,7 @@
     return-object v0
 .end method
 
-.method public static isWifiAvailable(Landroid/content/Context;)Z
+.method public static isDataConnected(Landroid/content/Context;)Z
     .locals 9
     .param p0, "ctx"    # Landroid/content/Context;
 

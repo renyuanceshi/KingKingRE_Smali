@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v0
 

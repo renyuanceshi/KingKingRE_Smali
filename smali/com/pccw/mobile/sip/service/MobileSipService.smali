@@ -8072,7 +8072,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -9133,7 +9133,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v1}, Landroid/net/wifi/WifiManager;->isWifiEnabled()Z
+    invoke-virtual {v1}, Landroid/net/wifi/WifiManager;->isDataConnected()Z
 
     move-result v2
 

@@ -69,7 +69,7 @@
     .line 33
     iget-object v5, p0, Lcom/pccw/mobile/server/RoamSaveAuthenApi;->context:Landroid/content/Context;
 
-    invoke-static {v5}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {v5}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v5
 

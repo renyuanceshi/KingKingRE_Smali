@@ -509,7 +509,7 @@
     .line 48
     iget-object v0, p0, Lcom/pccw/asynctask/SendSMSAsyncTask;->ctx:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v0
 

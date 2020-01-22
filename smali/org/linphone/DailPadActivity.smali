@@ -413,7 +413,7 @@
 
     .prologue
     .line 94
-    invoke-direct {p0}, Lorg/linphone/DailPadActivity;->isWifiAvailable()Z
+    invoke-direct {p0}, Lorg/linphone/DailPadActivity;->isDataConnected()Z
 
     move-result v0
 
@@ -1009,7 +1009,7 @@
     return-void
 .end method
 
-.method private isWifiAvailable()Z
+.method private isDataConnected()Z
     .locals 2
 
     .prologue

@@ -44,7 +44,7 @@
     .line 27
     iget-object v2, p0, Lcom/pccw/sms/service/GetMsisdnByImsiService;->ctx:Landroid/content/Context;
 
-    invoke-static {v2}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isWifiAvailable(Landroid/content/Context;)Z
+    invoke-static {v2}, Lcom/pccw/mobile/sip/util/NetworkUtils;->isDataConnected(Landroid/content/Context;)Z
 
     move-result v2
 

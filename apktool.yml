@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: King_2.1.14.apk
+apkFileName: output.apk
 compressionType: false
 doNotCompress:
 - arsc
